@@ -1,0 +1,382 @@
+<html>
+    <head>
+        <title>TechRealm</title>
+        <!--Icono-->
+        <link rel="shortcut icon" href="../assets/images/TechRealm.ico">
+        <!--CSS Bootstrap-->
+        <link href="../assets/css/css_bootstrap/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="../assets/css/styles.css">
+	</head>
+
+    <body>
+        <header>
+            <!--NavBar-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="../index.html">
+                        <img src="../assets/images/TechRealm-logo2.png" alt="Logo" width="60" height="54" class="d-inline-block align-text-top">
+                    </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../index.html">
+                                    <img src="../assets/images/home.svg" alt="Logo" width="24" height="24" class="d-inline-block">
+                                    Inicio
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="./products.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <img src="../assets/images/Products.svg" alt="Logo" width="24" height="24" class="d-inline-block">
+                                    Productos
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="./products.html">Juegos</a></li>
+                                    <li class="dropdown-submenu">
+                                        <a class="dropdown-item dropdown-toggle" href="./products.html">Consolas</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="./products.html">PlayStation</a></li>
+                                            <li><a class="dropdown-item" href="./products.html">Xbox</a></li>
+                                            <li><a class="dropdown-item" href="./products.html">Nintendo</a></li>
+                                            <li><hr class="dropdown-divider"></li>
+                                            <li><a class="dropdown-item" href="./products.html">Otra</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="dropdown-item" href="./products.html">Accesorios</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="./products.html">Soporte técnico</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./aboutUs.html">
+                                    <img src="../assets/images/AboutUs.svg" alt="Logo" width="24" height="24" class="d-inline-block">
+                                    Nosotros
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./contacUs.html">
+                                    <img src="../assets/images/contactUs.svg" alt="Logo" width="24" height="24" class="d-inline-block">
+                                    Contáctenos
+                                </a>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Buscar en la tienda" aria-label="Search">
+                            <button class="btn btn-outline-light" type="submit">Buscar</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--Sección de ultimos lanzamientos-->
+        <section>
+            <div class="container-md text-start mt-5">
+                <h3 class="custom-margin-left">Últimos lanzamientos</h3>
+            </div>
+            <!-- Carrusel de juegos y promociones -->
+            <div class="container mt-3">
+                <div id="carouselLanzamientos" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row justify-content-center">
+                                <div class="col-md-2">
+                                    <div class="card special-card">
+                                        <img src="../assets/images/products/New/GoW.png" class="card-img-top" alt="God of War">
+                                        <div class="card-body">
+                                            <h5 class="card-title">GOD OF WAR</h5>
+                                            <p class="card-text">Kratos, que vive como un hombre lejos de las sombras de los dioses, se adentra en la salvaje tierra nórdica junto a su hijo atreus.</p>
+                                            <div class="container-md text-center">
+                                                <a href="#" class="btn btn-light alert-btn">Comprar ahora</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="card special-card">
+                                        <img src="../assets/images/products/New/GoT.png" class="card-img-top" alt="Ghost of Tsushima">
+                                        <div class="card-body">
+                                            <h5 class="card-title">GHOST OF TSUSHIMA</h5>
+                                            <p class="card-text">Un despiadado ejército mongol invade Tsushima, y Jin Sakai lucha para liberar Japón.</p>
+                                            <div class="container-md text-center">
+                                                <a href="#" class="btn btn-light alert-btn">Comprar ahora</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="card special-card">
+                                        <img src="../assets/images/products/New/NFSP.png" class="card-img-top" alt="Need for Speed Payback">
+                                        <div class="card-body">
+                                            <h5 class="card-title">NEED FOR SPEED PAYBACK</h5>
+                                            <p class="card-text">Juego de carreras de alto octanaje donde personalizas vehículos y compites.</p>
+                                            <div class="container-md text-center">
+                                                <a href="#" class="btn btn-light alert-btn">Comprar ahora</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="card special-card">
+                                        <img src="../assets/images/products/New/NFSP.png" class="card-img-top" alt="Need for Speed Payback">
+                                        <div class="card-body">
+                                            <h5 class="card-title">NEED FOR SPEED PAYBACK</h5>
+                                            <p class="card-text">Juego de carreras de alto octanaje donde personalizas vehículos y compites.</p>
+                                            <div class="container-md text-center">
+                                                <a href="#" class="btn btn-light alert-btn">Comprar ahora</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="card special-card">
+                                        <img src="../assets/images/products/New/NFSP.png" class="card-img-top" alt="Need for Speed Payback">
+                                        <div class="card-body">
+                                            <h5 class="card-title">NEED FOR SPEED PAYBACK</h5>
+                                            <p class="card-text">Juego de carreras de alto octanaje donde personalizas vehículos y compites.</p>
+                                            <div class="container-md text-center">
+                                                <a href="#" class="btn btn-light alert-btn">Comprar ahora</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                        
+                        <!-- segunda pantalla de carousel -->
+                        <div class="carousel-item">
+                            <div class="row justify-content-center">
+                                <div class="col-md-2">
+                                    <div class="card special-card">
+                                        <img src="../assets/images/products/New/GoW.png" class="card-img-top" alt="God of War">
+                                        <div class="card-body">
+                                            <h5 class="card-title">GOD OF WAR</h5>
+                                            <p class="card-text">Kratos, que vive como un hombre lejos de las sombras de los dioses, se adentra en la salvaje tierra nórdica junto a su hijo atreus.</p>
+                                            <div class="container-md text-center">
+                                                <a href="#" class="btn btn-light alert-btn">Comprar ahora</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="card special-card">
+                                        <img src="../assets/images/products/New/GoT.png" class="card-img-top" alt="Ghost of Tsushima">
+                                        <div class="card-body">
+                                            <h5 class="card-title">GHOST OF TSUSHIMA</h5>
+                                            <p class="card-text">Un despiadado ejército mongol invade Tsushima, y Jin Sakai lucha para liberar Japón.</p>
+                                            <div class="container-md text-center">
+                                                <a href="#" class="btn btn-light alert-btn">Comprar ahora</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="card special-card">
+                                        <img src="../assets/images/products/New/NFSP.png" class="card-img-top" alt="Need for Speed Payback">
+                                        <div class="card-body">
+                                            <h5 class="card-title">NEED FOR SPEED PAYBACK</h5>
+                                            <p class="card-text">Juego de carreras de alto octanaje donde personalizas vehículos y compites.</p>
+                                            <div class="container-md text-center">
+                                                <a href="#" class="btn btn-light alert-btn">Comprar ahora</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="card special-card">
+                                        <img src="../assets/images/products/New/NFSP.png" class="card-img-top" alt="Need for Speed Payback">
+                                        <div class="card-body">
+                                            <h5 class="card-title">NEED FOR SPEED PAYBACK</h5>
+                                            <p class="card-text">Juego de carreras de alto octanaje donde personalizas vehículos y compites.</p>
+                                            <div class="container-md text-center">
+                                                <a href="#" class="btn btn-light alert-btn">Comprar ahora</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="card special-card">
+                                        <img src="../assets/images/products/New/NFSP.png" class="card-img-top" alt="Need for Speed Payback">
+                                        <div class="card-body">
+                                            <h5 class="card-title">NEED FOR SPEED PAYBACK</h5>
+                                            <p class="card-text">Juego de carreras de alto octanaje donde personalizas vehículos y compites.</p>
+                                            <div class="container-md text-center">
+                                                <a href="#" class="btn btn-light alert-btn">Comprar ahora</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                        
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselLanzamientos" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselLanzamientos" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!--Sección Accesorios-->
+        <section>
+            <div class="container-md text-start mt-5">
+                <h3 class="custom-margin-left">Accesorios</h3>
+            </div>
+            <!-- Carrusel de juegos y promociones -->
+            <div class="container mt-3">
+                <div id="carouselPromos" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row justify-content-center">
+                                <div class="col-md-2">
+                                    <div class="card special-card">
+                                        <img src="../assets/images/products/Accesories/Hylas.png" class="card-img-top" alt="DIADEMA GAMER REDRAGON HYLAS">
+                                        <div class="card-body">
+                                            <h5 class="card-title">DIADEMA GAMER REDRAGON HYLAS white, Wired headset, RGB backlight</h5>
+                                            <p class="card-text">Redragon H260 RGB – Auriculares para juegos con micrófono, cableados, compatibles con Xbox One, Nintendo Switch, PS4, PS5, PC, portátiles y Nintendo Switch</p>
+                                            <div class="container-md text-center">
+                                                <a href="#" class="btn btn-light alert-btn">Comprar ahora</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="card special-card">
+                                        <img src="../assets/images/products/Accesories/mousePad.png" class="card-img-top" alt="PADMOUSE GAMER REDRAGON KUNLUN">
+                                        <div class="card-body">
+                                            <h5 class="card-title">PADMOUSE GAMER REDRAGON KUNLUN L, Gaming Mousepad</h5>
+                                            <p class="card-text">PADMOUSE GAMER REDRAGON KUNLUN</p>
+                                            <div class="container-md text-center">
+                                                <a href="#" class="btn btn-light alert-btn">Comprar ahora</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="card special-card">
+                                        <img src="../assets/images/products/Accesories/mouseRed.png" class="card-img-top" alt="Need for Speed Payback">
+                                        <div class="card-body">
+                                            <h5 class="card-title">MOUSE GAMER REDRAGON GRIFFIN, Wired gaming mouse RGB</h5>
+                                            <p class="card-text">MOUSE GAMER REDRAGON GRIFFIN M607 RGB</p>
+                                            <div class="container-md text-center">
+                                                <a href="#" class="btn btn-light alert-btn">Comprar ahora</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="card special-card">
+                                        <img src="../assets/images/products/Accesories/gamePad.png" class="card-img-top" alt="GAMEPAD T-DAGGER">
+                                        <div class="card-body">
+                                            <h5 class="card-title">GAMEPAD T-DAGGER (CONTROL) ARIES T-TGP500, PC, PS3, NINTENDO S WITCH</h5>
+                                            <p class="card-text">GAMEPAD T-DAGGER (CONTROL) ARIES T-TGP500, PC, PS3, NINTENDO S WITCH</p>
+                                            <div class="container-md text-center">
+                                                <a href="#" class="btn btn-light alert-btn">Comprar ahora</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="card special-card">
+                                        <img src="../assets/images/products/Accesories/tecladoGamer.png" class="card-img-top" alt="TECLADO GAMER T-DAGGER">
+                                        <div class="card-body">
+                                            <h5 class="card-title">TECLADO GAMER T-DAGGER BORA RAINBOW T-TGK313 keyboard, Spanis h LA</h5>
+                                            <p class="card-text">T-DAGGER Bora T-TGK313 Teclado mecánico para juegos</p>
+                                            <div class="container-md text-center">
+                                                <a href="#" class="btn btn-light alert-btn">Comprar ahora</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                        
+                        <!-- segunda pantalla de carousel -->
+                        <div class="carousel-item">
+                            <div class="row justify-content-center">
+                                <div class="col-md-2">
+                                    <div class="card special-card">
+                                        <img src="../assets/images/products/Accesories/Hylas.png" class="card-img-top" alt="DIADEMA GAMER REDRAGON HYLAS">
+                                        <div class="card-body">
+                                            <h5 class="card-title">DIADEMA GAMER REDRAGON HYLAS white, Wired headset, RGB backlight</h5>
+                                            <p class="card-text">Redragon H260 RGB – Auriculares para juegos con micrófono, cableados, compatibles con Xbox One, Nintendo Switch, PS4, PS5, PC, portátiles y Nintendo Switch</p>
+                                            <div class="container-md text-center">
+                                                <a href="#" class="btn btn-light alert-btn">Comprar ahora</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="card special-card">
+                                        <img src="../assets/images/products/Accesories/mousePad.png" class="card-img-top" alt="PADMOUSE GAMER REDRAGON KUNLUN">
+                                        <div class="card-body">
+                                            <h5 class="card-title">PADMOUSE GAMER REDRAGON KUNLUN L, Gaming Mousepad</h5>
+                                            <p class="card-text">PADMOUSE GAMER REDRAGON KUNLUN</p>
+                                            <div class="container-md text-center">
+                                                <a href="#" class="btn btn-light alert-btn">Comprar ahora</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="card special-card">
+                                        <img src="../assets/images/products/Accesories/mouseRed.png" class="card-img-top" alt="Need for Speed Payback">
+                                        <div class="card-body">
+                                            <h5 class="card-title">MOUSE GAMER REDRAGON GRIFFIN, Wired gaming mouse RGB</h5>
+                                            <p class="card-text">MOUSE GAMER REDRAGON GRIFFIN M607 RGB</p>
+                                            <div class="container-md text-center">
+                                                <a href="#" class="btn btn-light alert-btn">Comprar ahora</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="card special-card">
+                                        <img src="../assets/images/products/Accesories/gamePad.png" class="card-img-top" alt="GAMEPAD T-DAGGER">
+                                        <div class="card-body">
+                                            <h5 class="card-title">GAMEPAD T-DAGGER (CONTROL) ARIES T-TGP500, PC, PS3, NINTENDO S WITCH</h5>
+                                            <p class="card-text">GAMEPAD T-DAGGER (CONTROL) ARIES T-TGP500, PC, PS3, NINTENDO S WITCH</p>
+                                            <div class="container-md text-center">
+                                                <a href="#" class="btn btn-light alert-btn">Comprar ahora</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="card special-card">
+                                        <img src="../assets/images/products/Accesories/tecladoGamer.png" class="card-img-top" alt="TECLADO GAMER T-DAGGER">
+                                        <div class="card-body">
+                                            <h5 class="card-title">TECLADO GAMER T-DAGGER BORA RAINBOW T-TGK313 keyboard, Spanis h LA</h5>
+                                            <p class="card-text">T-DAGGER Bora T-TGK313 Teclado mecánico para juegos</p>
+                                            <div class="container-md text-center">
+                                                <a href="#" class="btn btn-light alert-btn">Comprar ahora</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                         
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselPromos" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselPromos" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+        
+
+        <!-- Scripts -->
+        <script src="../assets/js/js_bootstrap/bootstrap.bundle.min.js"></script>
+        <script src="../assets/js/jquery/jquery-3.7.1.min.js"></script>
+        <script src="../assets/js/logica.js"></script>
+    </body>
+</html>
